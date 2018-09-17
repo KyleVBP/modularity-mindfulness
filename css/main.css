@@ -2,8 +2,12 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-h1 {
+.ja {
   font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.banner-txt {
+  margin: 0;
 }
 
 .logo {
@@ -28,14 +32,21 @@ nav {
   background-color: #fff;
 }
 
+.intro {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
 
 @media only screen and (min-width: 38em) {
+
   h2 {
-    margin: 0 0 1em;
+    margin: 0 0 1.4em;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
