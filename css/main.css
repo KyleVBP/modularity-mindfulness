@@ -4,6 +4,7 @@ html {
 
 .ja {
   font-family: "Noto Sans Japanese", sans-serif;
+  color: #000;
 }
 
 .banner-txt {
@@ -23,12 +24,24 @@ nav {
   color: #005e76;
 }
 
+.btn {
+  color: #005e76;
+  border: 2px solid #8bc9d9;
+  background-color: #fff;
+}
+
+.btn:hover {
+  border: 2px solid #0084a6;
+  background-color: #8bc9d9;
+  color: #005e76;
+}
+
 .btn-ghost {
   border-bottom: 2px solid #8bc9d9;
 }
 
 .btn-ghost:hover {
-  border-bottom: 2px solid #8bc9d9;
+  border-bottom: 2px solid #0084a6;
   background-color: #fff;
 }
 
@@ -37,8 +50,8 @@ nav {
   border-bottom: 2px solid #e2e2e2;
 }
 
-@media only screen and (min-width: 25em) {
-
+.foot {
+  border-top: 2px solid #e2e2e2;
 }
 
 @media only screen and (min-width: 38em) {
@@ -58,9 +71,5 @@ nav {
   .logo {
     text-align: left;
   }
-
-}
-
-@media only screen and (min-width: 90em) {
 
 }
